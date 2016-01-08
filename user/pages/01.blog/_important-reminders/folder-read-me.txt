@@ -1,0 +1,1 @@
+To have important reminders not displayed, delete the contents of the 'blog_reminders_item.md' file.

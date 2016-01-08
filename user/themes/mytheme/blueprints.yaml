@@ -1,0 +1,49 @@
+name: MyTheme
+version: 1.0.0
+description: "Extending Bones Vanilla"
+icon: crosshairs
+author:
+ name: Paul Hibbitts
+ email: paul@paulhibbitts.com
+ url: http://hibbittsdesign.org
+
+form:
+  validation: loose
+  fields:
+    dropdown.enabled:
+        type: toggle
+        label: Dropdown in navbar
+        highlight: 1
+        default: 1
+        options:
+          1: Enabled
+          0: Disabled
+        validate:
+          type: bool
+    google_prettify.enabled:
+        type: toggle
+        label: Google Prettify Code
+        highlight: 1
+        default: 1
+        options:
+          1: Enabled
+          0: Disabled
+        validate:
+          type: bool
+    mobilemenu_breakpoint:
+      type: select
+      label: Mobile Menu Breakpoint
+      classes: fancy
+      default: medium
+      options:
+        'large': 'Large'
+        'medium': 'Medium'
+        'all': 'Mobile for All'
+    mobilemenu_position:
+      type: select
+      label: Mobile Menu Position
+      classes: fancy
+      default: left
+      options:
+        'left': 'left'
+        'right': 'right'

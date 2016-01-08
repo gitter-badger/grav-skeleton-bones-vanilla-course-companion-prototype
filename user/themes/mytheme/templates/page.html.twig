@@ -1,0 +1,34 @@
+{# new twig template file based on existing item twig template file - hibbittsdesign.org #}
+{% embed 'partials/base.html.twig' %}
+
+	{% block content %}
+		{% if config.plugins.breadcrumbs.enabled %}
+			<div class="sg-breadcrumb">
+				<div class="row">
+					{% include 'partials/breadcrumbs.html.twig' %}
+				</div>
+			</div>
+		{% endif %}
+
+		<div class="blog-content-item row">
+			<div id="item" class="medium-8 columns medium-nopaddingleft">
+				{# remove rendering by external twig template - hibbittsdesign.org #}
+				<h3>{{page.title}}</h3>
+				{{ page.content }}
+          <br>
+          {% include 'partials/github_text_phrase_link.html.twig' %}
+        	</div>
+			<div id="sidebar" class="medium-4 columns medium-nopaddingright">
+				{# {% include 'partials/sidebar.html.twig' with {'blog':page.parent}%} #}
+        {# display sidebar markdown page as sidebar - hibbittsdesign.org #}
+        {% set content = pages.find('/sidebar').content %}
+        {% if content %}
+          <div class="sidebar">
+          {{ content }}
+          </div>
+        {% endif %}
+			</div>
+		</div>
+	{% endblock %}
+
+{% endembed %}

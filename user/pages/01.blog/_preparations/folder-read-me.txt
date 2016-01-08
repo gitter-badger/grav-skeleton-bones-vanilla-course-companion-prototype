@@ -1,0 +1,1 @@
+To have class preparations not displayed, delete the contents of the 'blog_preparations_item.md' file.

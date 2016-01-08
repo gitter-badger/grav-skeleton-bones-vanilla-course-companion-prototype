@@ -1,0 +1,29 @@
+title: CPT-363
+author:
+  name: Some Name
+  email: 'somename@somewhere.com'
+metadata:
+    description: 'Grav is an easy to use, yet powerful, open source flat-file CMS'
+menu:
+    - text: Grav
+      icon: arrow-circle-right
+      url: http://getgrav.org/
+github:
+    enabled: true
+    tree: https://github.com/hibbitts-design/grav-skeleton-bootstrap-course-companion-prototype/edit/master/user/
+icon:
+    preparations: check-circle
+    summary: calendar-o
+summary:
+  enabled: true
+  format: short
+  size: 300
+  delimiter: '==='
+redirects:
+  /redirect-test: /
+  '/old/(.*)': /new/$1
+routes:
+  /something/else: /blog/sample-3
+  '/new/(.*)': /blog/$1
+blog:
+  route: /blog

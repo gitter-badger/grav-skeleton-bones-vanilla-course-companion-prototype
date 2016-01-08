@@ -1,0 +1,11 @@
+email: paul@paulhibbitts.com
+fullname: 'Paul Hibbitts'
+title: Administrator
+state: enabled
+access:
+  admin:
+    login: true
+    super: true
+  site:
+    login: true
+hashed_password: $2y$10$H2o/nfqvFh6c4vQMFL63ieT9Za23PJrylwLc88qXAknJunUg/D776

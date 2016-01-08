@@ -1,0 +1,7 @@
+To make a new blog post entry duplicate an existing folder and do the following:
+- name the new folder (i.e. week-n)
+- edit the contents of the item.md file within the folder
+- if you want to temporarily hide the page from view, set the page header variable ‘published:’ to false. For example, ‘published: false’.
+- if you want a custom post icon other than the default calendar, add a page header item ‘icons:’ to the name if the font-awesome icon you want. For example, ‘icon: users’.
+
+For more information about adding blog post entries (i.e. pages) to your Grav site, review http://learn.getgrav.org/content/content-pages
