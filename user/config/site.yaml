@@ -10,7 +10,7 @@ menu:
       url: http://getgrav.org/
 github:
     enabled: true
-    tree: https://github.com/hibbitts-design/grav-skeleton-bootstrap-course-companion-prototype/edit/master/user/
+    tree: https://github.com/hibbitts-design/grav-skeleton-bones-vanilla-course-companion-prototype/edit/master/user/
 icon:
     preparations: check-circle
     summary: calendar-o
