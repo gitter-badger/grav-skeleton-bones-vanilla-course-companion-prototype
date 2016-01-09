@@ -18,3 +18,7 @@
 #sg-mainmenu .menu > li.active > a, #sg-mainmenu-mobile .menu > li.active > a {
     background-color: #ffffff;
 }
+
+#header #sg-header-title h3 {
+    color: #5A5A5A;
+}
