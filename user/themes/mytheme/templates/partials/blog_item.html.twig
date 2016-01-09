@@ -62,7 +62,7 @@
     {% elseif truncate and page.summary != page.content %}
         {# added summary flag and title icon - hibbittsdesign.org #}
         <p>{{ page.summary }}</p>
-        <p><a href="{{ page.url }}">View all {{ page.title }} Materials <i class="fa fa-chevron-right"></i></a></p>
+        <p><a href="{{ page.url }}">View all of {{ page.title }} <i class="fa fa-chevron-right"></i></a></p>
         <hr>
     {% elseif truncate %}
         {% if page.summary != page.content %}
