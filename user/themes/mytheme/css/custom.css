@@ -12,5 +12,9 @@
   margin: 20px 0 20px !important; }
 
 #header {
-    background-color: #fafafa !important;
+    background-color: #fafafa;
+}
+
+#sg-mainmenu .menu > li.active > a, #sg-mainmenu-mobile .menu > li.active > a {
+    background-color: #ffffff;
 }
