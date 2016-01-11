@@ -42,6 +42,9 @@
                 {% endblock %}
             </div>
         </div>
+
+        {# check content display flag - hibbittsdesign.org #}
+        {% if not grav.uri.param('onlydisplaypagecontent') %}
         <div class="off-canvas-content" data-off-canvas-content>
 
         {% block header %}
@@ -74,6 +77,7 @@
             </div>
         </header>
         {% endblock %}
+        {% endif %}
 
         {% block body %}
         <section id="body" class="{{ class }}">
@@ -81,6 +85,8 @@
         </section>
         {% endblock %}
 
+        {# check content display flag - hibbittsdesign.org #}
+        {% if not grav.uri.param('onlydisplaypagecontent') %}
         {% block footer %}
         <footer id="footer">
             <div class="row sg-center">
@@ -91,6 +97,7 @@
             </div>
         </footer>
         {% endblock %}
+        {% endif %}
 
         {% block bottom %}
             {% block javascripts %}
@@ -100,6 +107,7 @@
                 {% if theme_config.google_prettify.enabled %}
                     {% do assets.addJs('https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js',{'priority':100, 'group':'bottom'}) %}
                 {% endif %}
+                {% do assets.add('theme://js/my.js', 98) %} {# load custom JS - hibbittsdesign.org #}
             {% endblock %}
             {{ assets.js('bottom') }}
         {% endblock %}

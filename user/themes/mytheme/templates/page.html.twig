@@ -11,23 +11,31 @@
 		{% endif %}
 
 		<div class="blog-content-item row">
+			{# check content display flag - hibbittsdesign.org #}
+			{% if not grav.uri.param('onlydisplaypagecontent') %}
 			<div id="item" class="medium-8 columns medium-nopaddingleft">
+				{% else %}
+			<div id="item" class="medium-12 columns medium-nopaddingleft">
+			{% endif %}
 				{# remove rendering by external twig template - hibbittsdesign.org #}
 				<h3>{{page.title}}</h3>
 				{{ page.content }}
           <br>
           {% include 'partials/github_text_phrase_link.html.twig' %}
         	</div>
-			<div id="sidebar" class="medium-4 columns medium-nopaddingright">
-				{# {% include 'partials/sidebar.html.twig' with {'blog':page.parent}%} #}
-        {# display sidebar markdown page as sidebar - hibbittsdesign.org #}
-        {% set content = pages.find('/sidebar').content %}
-        {% if content %}
-          <div class="sidebar">
-          {{ content }}
-          </div>
-        {% endif %}
-			</div>
+				{# check content display flag - hibbittsdesign.org #}
+				{% if not grav.uri.param('onlydisplaypagecontent') %}
+					<div id="sidebar" class="medium-4 columns medium-nopaddingright">
+					{# {% include 'partials/sidebar.html.twig' with {'blog':page.parent}%} #}
+	        {# display sidebar markdown page as sidebar - hibbittsdesign.org #}
+	        {% set content = pages.find('/sidebar').content %}
+	        {% if content %}
+	          <div class="sidebar">
+	          {{ content }}
+	          </div>
+	        {% endif %}
+				</div>
+				{% endif %}
 		</div>
 	{% endblock %}
 

@@ -33,7 +33,12 @@
 			{% endif %}
 		<div class="sg-blog">
 			<div class="row">
-				<div id="listing" class="medium-8 columns medium-nopaddingleft">
+				{# check content display flag - hibbittsdesign.org #}
+				{% if not grav.uri.param('onlydisplaypagecontent') %}
+					<div id="listing" class="medium-8 columns medium-nopaddingleft">
+					{% else %}
+					<div id="listing" class="medium-12 columns medium-nopaddingleft">
+				{% endif %}
 
 					{% for module in page.collection('modular_content') %}
 						{% if module.raw|trim  %}
@@ -49,6 +54,8 @@
 	                    {% include 'partials/pagination.html.twig' with {'base_url':page.url, 'pagination':collection.params.pagination} %}
 	                {% endif %}
 				</div>
+				{# check content display flag - hibbittsdesign.org #}
+				{% if not grav.uri.param('onlydisplaypagecontent') %}
 				<div id="sidebar" class="medium-4 columns medium-nopaddingright">
 					{#  {% include 'partials/sidebar.html.twig' with {'blog':page} %} #}
 					{% set content = pages.find('/sidebar').content %}
@@ -58,6 +65,7 @@
 							</div>
 					{% endif %}
 				</div>
+				{% endif %}
 			</div>
 		</div>
 	{% endblock %}
