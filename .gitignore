@@ -1,30 +1,17 @@
-# Composer
-.composer
-vendor/
-
 # Sass
 .sass-cache
 
 # Grav Specific
-backup/*
-!backup/.*
 cache/*
 !cache/.*
-assets/*
-!assets/.*
+data/*
+!data/.*
 logs/*
 !logs/.*
-images/*
-!images/.*
-user/accounts/*
-!user/accounts/.*
-user/data/*
-!user/data/.*
-user/plugins/*
-!user/plugins/.*
-user/themes/*
-!user/themes/.*
-user/localhost/config/security.yaml
+plugins/*
+!plugins/.*
+themes/*
+!themes/.*
 
 # OS Generated
 .DS_Store*
@@ -32,6 +19,3 @@ ehthumbs.db
 Icon?
 Thumbs.db
 *.swp
-
-# phpstorm
-.idea/*
