@@ -19,6 +19,7 @@ If you are not already familiar with Grav, it is suggested you first review [The
 
 # Configuration
 
+The 'site.yaml' file located in the '/user/config/' folder contains the following default values:
 ```
 title: CPT-363
 metadata:
