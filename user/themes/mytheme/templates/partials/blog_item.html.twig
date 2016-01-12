@@ -19,7 +19,7 @@
           {% if page.header.icon %}
             {% set titleicon = page.header.icon %}
           {% else %}
-            {% set titleicon = config.site.icon.summary %}
+            {% set titleicon = config.site.icon.posts %}
           {% endif %}
             {# added support for content only display - hibbittsdesign.org #}
             {% if not grav.uri.param('onlydisplaypagecontent')%}

@@ -3,17 +3,18 @@ author:
   name: Some Name
   email: 'somename@somewhere.com'
 metadata:
-    description: 'Grav is an easy to use, yet powerful, open source flat-file CMS'
+    description: 'A short description of your course would go here'
 menu:
     - text: Grav
       icon: arrow-circle-right
       url: http://getgrav.org/
 github:
     enabled: true
-    tree: https://github.com/hibbitts-design/grav-skeleton-bones-vanilla-course-companion-prototype/edit/master/user/
+    tree: https://github.com/hibbitts-design/grav-skeleton-bootstrap-course-companion-prototype/edit/master/user/
 icon:
     preparations: check-circle
-    summary: calendar-o
+    posts: calendar-o
+# The below are required settings for the base theme, and should not be modified
 summary:
   enabled: true
   format: short
