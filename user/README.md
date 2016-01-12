@@ -50,7 +50,7 @@ github:
 | github  | enabled       | Can be set to `true` or `false`. When set to `true`, it generates the **Edit this page** link to GitHub for each page. |
 | github  | tree          | Sets the tree by which your site's content is based. Generally the repo your site's content is pulled from.            |
 
-## Quick Setup for a New Grav Bootstrap Course Companion Site
+## Quick Setup for a New Grav Bones Vanilla Course Companion Site
 
 1. [Download Bootstrap Course Companion Skeleton zip archive](https://github.com/hibbitts-design/grav-skeleton-bones-vanilla-course-companion-prototype/archive/master.zip)
 2. Unzip the package into your web root folder.
