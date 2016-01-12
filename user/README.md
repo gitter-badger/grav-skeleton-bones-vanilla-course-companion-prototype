@@ -2,6 +2,21 @@
 
 ![BVCC Screenshot](assets/bvcc-screenshot.png)
 
+This is a sample skeleton site for a 13 week course companion site, intended to accompany a face-to-face course. It also support a [flipped-LMS approach](http://hibbittsdesign.org/blog/posts/flipped-lms-using-an-open-and-collaborative-platform) using Grav as an open and collaborative platform.
+
+# Features
+
+* Blog-format, where each week preparations and materials can be shared
+* Important course reminders are displayed at the top of the homepage
+* External links (e.g. LMS items) are automatically opened in a new Browser Window
+* Sidebar is a simple markdown file that can be edited as needed
+* URL flag support to display only content, for rendering within LMS pages. For example, http://hibbittsdesign.com/prototypes/bootstrap-course-companion/blog/week-01/onlydisplaypagecontent:true
+* Integrated support for course materials to be sourced/maintained via GitHub
+
+If you are not already familiar with Grav, it is suggested you first review [The Basics of Grav](http://learn.getgrav.org/)
+
+To learn more about using Grav for a flipped-LMS approach, explore the articles on [hibbittsdesign.org](http://hibbittsdesign.org)
+
 # Configuration
 
 ```
