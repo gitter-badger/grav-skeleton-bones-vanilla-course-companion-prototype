@@ -1,5 +1,5 @@
 ---
-title: 'Important Reminders'
+title: Important Reminders
 ---
 
 ###### Important Reminders
