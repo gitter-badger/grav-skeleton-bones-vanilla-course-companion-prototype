@@ -3,12 +3,12 @@ title: Sidebar
 ---
 
 ##### Course Facilitators
-Some Name  
+Some Name
 <somename@somewhere.edu>  
 Office hours Mon. 4:00-5:15pm  
 Harbour Centre 2146  
 
-Another Name  
+Another Name
 <somewhere@edu.edu>  
 
 ##### Canvas LMS

@@ -11,13 +11,13 @@ modular_content:
     items: @self.modular
     order:
         dir: asc
-        
+
 content:
     items: @self.children
     order:
         by: date
         dir: desc
-    limit: 10
+    limit: 14
     pagination: true
 
 feed:

@@ -1,0 +1,6 @@
+To make a new top-level page that is included in the site navbar do the following:
+- duplicate the ’03.syllabus’ folder
+- rename it to ’04.yourpagename’ to add it after the syllabus item in the navbar
+- edit the contents of the ‘page.md’ file within the newly created folder 
+
+For more information about adding pages to your Grav site, review http://learn.getgrav.org/content/content-pages

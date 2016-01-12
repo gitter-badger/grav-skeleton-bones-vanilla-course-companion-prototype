@@ -93,11 +93,11 @@
         <p class="prev-next">
           {# swapped button order  - hibbittsdesign.org #}
           {% if not page.isLast %}
-              <a class="button" href="{{ page.prevSibling.url }}"><i class="fa fa-chevron-left"></i> Previous Post </a>
+              <a class="button" href="{{ page.prevSibling.url }}"><i class="fa fa-chevron-left"></i> Previous </a>
           {% endif %}
 
             {% if not page.isFirst %}
-                <a class="button" href="{{ page.nextSibling.url }}"> Next Post <i class="fa fa-chevron-right"></i></a>
+                <a class="button" href="{{ page.nextSibling.url }}"> Next <i class="fa fa-chevron-right"></i></a>
             {% endif %}
 
         </p>

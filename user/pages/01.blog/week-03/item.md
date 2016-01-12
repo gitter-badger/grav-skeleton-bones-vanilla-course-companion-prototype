@@ -4,6 +4,7 @@ date: 01/19/2016
 published: true
 ---
 
+<!--- Your weekly summary content goes here -->
 ##### Summaries and Questions  
 [Jan 19th Class One-minute Summaries](https://canvas.sfu.ca/courses/25492/discussion_topics/440792)
 
@@ -12,7 +13,7 @@ published: true
 
 ===
 
-
+<!--- Your weekly materials content goes here -->
 ##### Summaries and Questions  
 [Jan 19th Class One-minute Summaries](https://canvas.sfu.ca/courses/25492/discussion_topics/440792)
 
