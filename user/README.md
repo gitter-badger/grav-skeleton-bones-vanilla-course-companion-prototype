@@ -37,7 +37,7 @@ github:
 
 | Setting | Child Setting | Description                                                                                                            |
 |---------|---------------|------------------------------------------------------------------------------------------------------------------------|
-| title   |               | The name of the course, to be displayed at the top of every page.                                                      |
+| title   |               | The course number/id, to be displayed at the top of every page.                                                      |
 | metadata  |  description | The short description of the course companion site                                       |
 | menu  |  text | Text label for external links to be included on navbar                                       |
 | menu  |  icon | Font awesome icon code for external link (optional)                                        |
@@ -51,7 +51,7 @@ github:
 
 ## Quick Setup for a New Grav Bootstrap Course Companion Site
 
-1. [Download Bootstrap Course Companion Skeleton zip archive](https://github.com/hibbitts-design/grav-skeleton-bootstrap-course-companion-prototype/archive/master.zip)
+1. [Download Bootstrap Course Companion Skeleton zip archive](https://github.com/hibbitts-design/grav-skeleton-bones-vanilla-course-companion-prototype/archive/master.zip)
 2. Unzip the package into your web root folder.
 3. Point your browser at the folder.
 4. Enjoy the course companion!
