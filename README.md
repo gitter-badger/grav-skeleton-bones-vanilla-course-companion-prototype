@@ -52,7 +52,7 @@ github:
 
 ## Quick Setup for a New Grav Bones Vanilla Course Companion Site
 
-1. [Download Bootstrap Course Companion Skeleton zip archive](https://github.com/hibbitts-design/grav-skeleton-bones-vanilla-course-companion-prototype/archive/master.zip)
+1. [Download Bones Vanilla Course Companion Skeleton zip archive](https://github.com/hibbitts-design/grav-skeleton-bones-vanilla-course-companion-prototype/archive/master.zip)
 2. Unzip the package into your web root folder.
 3. Point your browser at the folder.
 4. Enjoy the course companion!
