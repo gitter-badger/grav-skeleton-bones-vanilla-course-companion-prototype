@@ -16,6 +16,9 @@ This is a sample skeleton site for a 13 week course companion site, intended to 
 
 If you are not already familiar with Grav, it is suggested you first review [The Basics of Grav](http://learn.getgrav.org/)
 
+#Site Structure
+
+![CC Structure](assets/cc-structure.png)
 
 # Configuration
 
