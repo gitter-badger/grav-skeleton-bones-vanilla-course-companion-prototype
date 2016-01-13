@@ -2,18 +2,14 @@
 .sass-cache
 
 # Grav Specific
-accounts/*
-!accounts/.*
+user/accounts/*
+!user/accounts/.*
 cache/*
 !cache/.*
 data/*
 !data/.*
 logs/*
 !logs/.*
-plugins/*
-!plugins/.*
-themes/*
-!themes/.*
 
 # OS Generated
 .DS_Store*
