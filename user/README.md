@@ -55,7 +55,8 @@ github:
 1. [Download Bones Vanilla Course Companion Skeleton zip archive](https://github.com/hibbitts-design/grav-skeleton-bones-vanilla-course-companion-prototype/archive/master.zip)
 2. Unzip the package into your web root folder.
 3. Point your browser at the folder.
-4. Enjoy the course companion!
+4. Create your site administrator account.
+5. You are done!
 
 To fully enjoy the benefits of the workflow that Grav can support, please read the step-by-step guide [Running Grav Locally with MAMP](http://hibbittsdesign.org/blog/posts/running-grav-locally-with-mamp) and [Using Grav with GitHub Desktop (and Deploy)](http://hibbittsdesign.org/blog/posts/using-grav-with-github-and-deploy).
 
