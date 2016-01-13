@@ -1,5 +1,7 @@
 # Bones Vanilla Course Companion Skeleton
 
+[![Join the chat at https://gitter.im/hibbitts-design/grav-skeleton-bones-vanilla-course-companion-prototype](https://badges.gitter.im/hibbitts-design/grav-skeleton-bones-vanilla-course-companion-prototype.svg)](https://gitter.im/hibbitts-design/grav-skeleton-bones-vanilla-course-companion-prototype?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 ![BVCC Screenshot](assets/bvcc-screenshot.png)
 
 This is a sample skeleton site for a 13 week course companion site, intended to accompany a face-to-face course. It also support a [flipped-LMS approach](http://hibbittsdesign.org/blog/posts/flipped-lms-using-an-open-and-collaborative-platform) using Grav as an open and collaborative platform.
